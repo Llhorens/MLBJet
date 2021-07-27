@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Glegoo);
+
+body {
+  background: linear-gradient(45deg, rgb(59, 50, 50), rgb(22, 28, 29));
+}
+#calcBody {
+  background: linear-gradient(45deg, #1068b6, #ec60a6);
+  height: 400px;
+  width: 300px;
+  box-shadow: 3px 3px 2px #222;
+  margin: auto;
+  border: 1px #000000 solid;
+}
+
+h1,
+#screen {
+  font-family: "Glegoo", Serif;
+}
+h1 {
+  margin: 0px 40px 0px 40px;
+  color: #000000;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+#screen {
+  margin: 20px 40px 20px 40px;
+  height: 35px;
+  background: #1068b6;
+  border-radius: 3px;
+  box-shadow: 2px 2px 1px #555 inset;
+}
+#screen p {
+  position: relative;
+  top: -3px;
+  margin: 7px;
+  text-align: right;
+  font-size: 1.4em;
+  overflow: hidden;
+}
+#buttonPad {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  width: 240px;
+  margin: auto;
+}
+button {
+  height: 35px;
+  width: 50px;
+  margin: 5px 0 5px 0;
+  border-radius: 3px;
+  font-size: 1.1em;
+}
+#plus {
+  height: 80px;
+}

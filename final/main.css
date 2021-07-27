@@ -1,0 +1,26 @@
+html {
+  background: linear-gradient(45deg, rgb(59, 50, 50), rgb(22, 28, 29));
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+h1 {
+  color: black;
+  background: linear-gradient(45deg, #1068b6, #ec60a6);
+  text-align: center;
+  border-bottom: white 1px solid;
+  padding-bottom: 10px;
+}
+h3 {
+  padding-left: 10px;
+}
+.container {
+  justify-content: center;
+  display: flex;
+}
+img {
+  margin: 15px;
+  border: 1px black solid;
+  box-shadow: 3px 3px 2px #222;
+  width: 400px;
+  height: 400px;
+}
