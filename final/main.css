@@ -4,7 +4,7 @@ html {
   color: white;
 }
 h1 {
-  color: black;
+  color: white;
   background: linear-gradient(45deg, #1068b6, #ec60a6);
   text-align: center;
   border-bottom: white 1px solid;
@@ -12,10 +12,13 @@ h1 {
 }
 h3 {
   padding-left: 10px;
+  text-align: center;
 }
 .container {
   justify-content: center;
   display: flex;
+  background: linear-gradient(45deg, #1068b6, #ec60a6);
+  text-align: center;
 }
 img {
   margin: 15px;
@@ -24,3 +27,16 @@ img {
   width: 400px;
   height: 400px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .container {
+  flex-direction: column;
+  }
+  img {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  }
+  }
+
+  
